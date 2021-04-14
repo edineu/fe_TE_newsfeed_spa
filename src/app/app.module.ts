@@ -10,11 +10,13 @@ import { PanelModule } from 'primeng/panel';
 import { CardModule } from 'primeng/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
+import { TopheaderComponent } from './topheader/topheader.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    TopheaderComponent
   ],
   imports: [
     BrowserModule,
