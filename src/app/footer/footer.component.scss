@@ -7,7 +7,7 @@ https://www.youtube.com/channel/UCQM5ye1xR4vJgtga0ryud2Q/
 ====================== */
 
 /* Main Footer */
-footer .main-footer{	padding: 20px 0;	background: #252525;}
+footer .main-footer{	padding: 20px 0;	background: #babcbda6;}
 footer ul{	padding-left: 0;	list-style: none;}
 
 /* Copy Right Footer */
@@ -25,12 +25,12 @@ footer ul{	padding-left: 0;	list-style: none;}
 
 /* Footer transparent */
 footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
-footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(190, 180, 180, 0.3) ;}
 
 /* Footer light */
-footer.light .footer-top{	background: #f9f9f9;}
+footer.light .footer-top{	background: #9c9898;}
 footer.light .main-footer{	background: #f9f9f9;}
-footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(243, 225, 225, 0.3) ;}
 
 /* Footer 4 */
 .footer- .logo {    display: inline-block;}
@@ -43,7 +43,7 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget.no-box{	padding: 0;	background-color: transparent;	margin-bottom: 40px;
 	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
 .widget.subscribe p{	margin-bottom: 18px;}
-.widget li a{	color: #ff8d1e;}
+.widget li a{	color: #88817a;}
 .widget li a:hover{	color: #4b92dc;}
 .widget-title {margin-bottom: 20px;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
@@ -55,12 +55,12 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .typo-light h2,
 .typo-light h3,
 .typo-light h4,
-.typo-light h5, 
+.typo-light h5,
 .typo-light h6,
 .typo-light p,
 .typo-light div,
 .typo-light span,
-.typo-light small{	color: #fff;}
+.typo-light small{	color: rgb(0, 0, 0);}
 
 ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
