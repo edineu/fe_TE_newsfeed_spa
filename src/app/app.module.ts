@@ -16,6 +16,7 @@ import { TopheaderComponent } from './topheader/topheader.component';
 import { NewsapiservicesService } from './service/newsapiservices.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { HealthComponent } from './health/health.component';
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     DashboardComponent,
     TopheaderComponent,
-    FooterComponent
+    FooterComponent,
+    HealthComponent
   ],
   exports: [
     FormsModule,

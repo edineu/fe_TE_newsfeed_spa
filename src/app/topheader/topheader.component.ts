@@ -15,7 +15,6 @@ export class TopheaderComponent implements OnInit {
 
   ngOnInit(): void {
     this._services.topHeader().subscribe((result) => {
-      console.log(result);
       this.topheaderDisplay = result.articles;
     });
   }
