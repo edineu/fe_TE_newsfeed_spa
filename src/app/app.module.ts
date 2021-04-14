@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,14 +14,13 @@ import { AngularMaterialModule } from './angular-material.module';
 import { TopheaderComponent } from './topheader/topheader.component';
 
 import { NewsapiservicesService } from './service/newsapiservices.service';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DashboardComponent,
-    TopheaderComponent
-  ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
@@ -29,6 +29,15 @@ import { NewsapiservicesService } from './service/newsapiservices.service';
     ChartModule,
     PanelModule,
     CardModule
+  ],
+  declarations: [
+    AppComponent,
+    DashboardComponent,
+    TopheaderComponent
+  ],
+  exports: [
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [NewsapiservicesService],
   bootstrap: [AppComponent]

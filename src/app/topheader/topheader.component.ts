@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 import { NewsapiservicesService } from '../service/newsapiservices.service';
 
@@ -11,9 +10,13 @@ export class TopheaderComponent implements OnInit {
 
   constructor(private _services: NewsapiservicesService) { }
 
+  // to display data
+  topheaderDisplay: any = [];
+
   ngOnInit(): void {
     this._services.topHeader().subscribe((result) => {
       console.log(result);
+      this.topheaderDisplay = result.articles;
     });
   }
 }
