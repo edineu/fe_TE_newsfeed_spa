@@ -17,7 +17,6 @@ import { NewsapiservicesService } from './service/newsapiservices.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
 import { HealthComponent } from './health/health.component';
-import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [

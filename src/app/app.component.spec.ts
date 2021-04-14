@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'airline-client-web'`, () => {
+  it(`should have as title 'newsfeed-api-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('airline-client-web');
+    expect(app.title).toEqual('newsfeed-api-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('airline-client-web app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('newsfeed-api-app app is running!');
   });
 });

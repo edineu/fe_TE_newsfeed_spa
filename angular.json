@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "airline-client-web": {
+    "newsfeed-api-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/airline-client-web",
+            "outputPath": "dist/newsfeed-api-app",
             "allowedCommonJsDependencies": ["chart.js"],
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -70,18 +70,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "airline-client-web:build"
+            "browserTarget": "newsfeed-api-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "airline-client-web:build:production"
+              "browserTarget": "newsfeed-api-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "airline-client-web:build"
+            "browserTarget": "newsfeed-api-app:build"
           }
         },
         "test": {
@@ -121,18 +121,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "airline-client-web:serve"
+            "devServerTarget": "newsfeed-api-appb:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "airline-client-web:serve:production"
+              "devServerTarget": "newsfeed-api-app:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "airline-client-web",
+  "defaultProject": "newsfeed-api-app",
   "cli": {
     "analytics": "1b5e5129-75ec-4759-9c5e-784fb2dab8a1"
   }

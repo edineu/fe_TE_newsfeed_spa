@@ -1,5 +1,5 @@
 {
-    "name": "airline-client-web",
+    "name": "newsfeed-api-app",
     "version": "0.0.0",
     "scripts": {
         "ng": "ng",
