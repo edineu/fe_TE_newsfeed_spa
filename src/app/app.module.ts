@@ -12,6 +12,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import { TopheaderComponent } from './topheader/topheader.component';
 
+import { NewsapiservicesService } from './service/newsapiservices.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +30,7 @@ import { TopheaderComponent } from './topheader/topheader.component';
     PanelModule,
     CardModule
   ],
+  providers: [NewsapiservicesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
