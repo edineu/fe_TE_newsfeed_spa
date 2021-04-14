@@ -1,3 +1,4 @@
+import { BrowserModule } from '@angular/platform-browser';
 import { TopheaderComponent } from './topheader/topheader.component';
 import { HealthComponent } from './health/health.component';
 import { NgModule } from '@angular/core';
@@ -13,6 +14,7 @@ const routes: Routes = [
 @NgModule({
   imports:
     [
+      BrowserModule,
       CommonModule,
       RouterModule.forRoot(routes)],
   exports: [RouterModule]
