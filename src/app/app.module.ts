@@ -15,8 +15,7 @@ import { TopheaderComponent } from './topheader/topheader.component';
 
 import { NewsapiservicesService } from './service/newsapiservices.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
-
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -33,7 +32,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [
     AppComponent,
     DashboardComponent,
-    TopheaderComponent
+    TopheaderComponent,
+    FooterComponent
   ],
   exports: [
     FormsModule,
