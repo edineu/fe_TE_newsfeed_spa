@@ -31,6 +31,7 @@ import { RouterModule } from '@angular/router';
     ChartModule,
     PanelModule,
     CardModule,
+    AppRoutingModule
   ],
   declarations: [
     AppComponent,
